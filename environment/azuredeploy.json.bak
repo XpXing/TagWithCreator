@@ -43,14 +43,13 @@
             "properties": {}
         },
         {
-            "apiVersion": "2020-02-02-preview",
+            "apiVersion": "2014-04-01",
             "name": "[parameters('appInsightsName')]",
             "type": "Microsoft.Insights/components",
             "location": "[resourceGroup().location]",
             "tags": {},
             "properties": {
-                "applicationId": "[parameters('appInsightsName')]",
-                "WorkspaceResourceId": "/subscriptions/f1d68e53-b4de-410e-a6bc-a5170352bb64/resourceGroups/xinghccn3/providers/Microsoft.OperationalInsights/workspaces/xinghccn3"
+                "applicationId": "[parameters('appInsightsName')]"
             }
         },
         {

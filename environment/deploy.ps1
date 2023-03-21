@@ -1,9 +1,9 @@
-$resourceGroupName = "xinghceast2"            # <-- REPLACE the variable values with your own values.
-$location = "chinaeast2"                 # <-- Ensure that the location is a valid Azure location
-$storageAccountName = "xinghceast2"           # <-- Ensure the storage account name is unique
-$appServicePlanName = "xinghceast2"   # <--
-$appInsightsName = "xinghceast2"              # <--
-$functionName = "xinghceast2"                 # <--
+$resourceGroupName = "xinghccn3"            # <-- REPLACE the variable values with your own values.
+$location = "chinanorth3"                 # <-- Ensure that the location is a valid Azure location
+$storageAccountName = "xinghccn3"           # <-- Ensure the storage account name is unique
+$appServicePlanName = "xinghccn3"   # <--
+$appInsightsName = "xinghccn3"              # <--
+$functionName = "xinghccn3"                 # <--
 
 New-AzResourceGroup -Name $resourceGroupName -Location $location -Force -Verbose
 
