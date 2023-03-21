@@ -2,6 +2,8 @@
 
 Blog posted at [Premier Field Engineering Tech Community](https://aka.ms/AnthonyWatherston)
 
+https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/tagging-azure-resources-with-a-creator/ba-p/1479819#comments
+
 Any issues you can raise them in this repository.
 
 Disclaimer:
